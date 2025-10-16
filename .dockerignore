@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Project specific
+.DS_Store
+.git/
+.gitignore
+.venv
+
+# Local development
+.env
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Docker specific
+docker-compose.override.yml
+
+# Virtual environment
+venv/
+ENV/
+
+# Test files
+tests/
+*.test
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Temp files
+*.swp
+*.swo
+*~
+
+# Local configuration
+config.local.*
+
+# Jupyter Notebook
+.ipynb_checkpoints
