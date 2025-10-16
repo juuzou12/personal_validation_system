@@ -2,9 +2,11 @@
 FROM python:3.9-slim
 
 # Set the working directory in the container
+
+
 WORKDIR /app
 
-# Install system dependencies
+# Install system dependencies safely
 RUN apt-get update && apt-get install -y \
     build-essential \
     cmake \
@@ -13,9 +15,9 @@ RUN apt-get update && apt-get install -y \
     libxrender-dev \
     tesseract-ocr \
     tesseract-ocr-eng \
-    tesseract-ocr-script-latn \
     libgl1-mesa-glx \
-    && rm -rf /var/lib/apt/lists/*
+ && rm -rf /var/lib/apt/lists/*
+
 
 # Install Python dependencies
 COPY requirements.txt .
