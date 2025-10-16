@@ -1,0 +1,7 @@
+build-essential
+cmake
+libopenblas-dev
+liblapack-dev
+libx11-dev
+tesseract-ocr
+libgl1
