@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV '/Users/gmathu/Desktop/vibe/ coding/personal_validation_system/kyc-validator/venv'
+set -gx VIRTUAL_ENV '/Users/gmathu/Desktop/vibe/ coding/personal_validation_system/kyc-validator/kyc-validator/venv'
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH

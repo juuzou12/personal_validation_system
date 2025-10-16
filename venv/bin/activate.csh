@@ -9,7 +9,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV '/Users/gmathu/Desktop/vibe/ coding/personal_validation_system/kyc-validator/venv'
+setenv VIRTUAL_ENV '/Users/gmathu/Desktop/vibe/ coding/personal_validation_system/kyc-validator/kyc-validator/venv'
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/"bin":$PATH"

@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/gmathu/Desktop/vibe/ coding/personal_validation_system/kyc-validator/venv/bin/python3.12" "$0" "$@"
+'''exec' "/Users/gmathu/Desktop/vibe/ coding/personal_validation_system/kyc-validator/kyc-validator/venv/bin/python3.12" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
